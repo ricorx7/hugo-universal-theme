@@ -13,7 +13,9 @@
 
         </header>
 
-        {{ partial "breadcrumbs.html" . }}
+        {{ if isset .Params "title" }}
+          {{ partial "breadcrumbs.html" . }}
+        {{ end }}
 
         <div id="content">
             {{ if isset .Params "id" }}
