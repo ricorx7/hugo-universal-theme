@@ -37,7 +37,7 @@
      text-align: center;
      color: #fff;
      opacity: 0;
-     background: rgba(240,95,64,.9);
+     background: rgba(240,95,95,.9);
      -webkit-transition: all .35s;
      -moz-transition: all .35s;
      transition: all .35s;
@@ -47,7 +47,7 @@
      position: absolute;
      top: 50%;
      width: 100%;
-     text-align: center;
+     text-align: left;
      transform: translateY(-50%);
  }
  
@@ -63,8 +63,11 @@
      font-weight: 600;
  }
  
+ /* Title of project */
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
      font-size: 18px;
+     color:#3C6478;
+     text-align: center;
  }
  
  .portfolio-box:hover .portfolio-box-caption {
