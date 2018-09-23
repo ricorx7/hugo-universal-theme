@@ -1,6 +1,8 @@
 {{ template "_internal/google_analytics.html" . }}
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -17,6 +19,15 @@
 
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
+
+<!-- Start Agent Map -->
+<script src="{{ .Site.BaseURL }}/js/jquery.vmap.js"></script>
+<script src="{{ .Site.BaseURL }}/js/maps/jquery.vmap.world.js"></script>
+<script src="{{ .Site.BaseURL }}/js/maps/jquery.vmap.usa.js"></script>
+<script src="{{ .Site.BaseURL }}/js/jquery.vmap.sampledata.js"></script>
+<script src="{{ .Site.BaseURL }}/js/vmap.agents.js"></script>
+<script src="{{ .Site.BaseURL }}/js/vmap.agents.usa.js"></script>
+<!-- End Agent Map -->
 
 <!-- Start of Async Drift Code -->
 <!--script>
@@ -46,10 +57,21 @@ drift.load('kykuigdkghds');
 <!-- Start ZoHo SalesIQ Code-->
 
 <script type="text/javascript">
-  var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
-  {widgetcode:"e4a0558d64feb279e36f7c660e91fe37628d0ca013fc9325217c677ac503968e5d5fe629768af6d9a03793700d9418c2", values:{},ready:function(){}};
-  var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
-  s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
-  </script>
+  var $zoho = $zoho || {};
+  $zoho.salesiq = $zoho.salesiq || {
+    widgetcode: "e4a0558d64feb279e36f7c660e91fe37628d0ca013fc9325217c677ac503968e5d5fe629768af6d9a03793700d9418c2",
+    values: {},
+    ready: function () {}
+  };
+  var d = document;
+  s = d.createElement("script");
+  s.type = "text/javascript";
+  s.id = "zsiqscript";
+  s.defer = true;
+  s.src = "https://salesiq.zoho.com/widget";
+  t = d.getElementsByTagName("script")[0];
+  t.parentNode.insertBefore(s, t);
+  d.write("<div id='zsiqwidget'></div>");
+</script>
 
 <!-- End ZoHo SalesIQ code-->

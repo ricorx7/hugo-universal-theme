@@ -1,0 +1,43 @@
+<div class="container" role="main">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+            <!-- Agent Modal -->
+            <!-- Data Updated from the vmap.agent.js file-->
+            <div class="modal fade" id="agentModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Agent Country</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="agent_name"></h4>
+                            <address>
+                                <h4 class="agent_company"></h4>
+                                <span class="agent_addr1"></span><br>
+                                <span class="agent_addr2"></span><br>
+                                <span class="agent_addr3"></span><br>
+                                <span><strong>Email: </strong></span><a class="agent_email" href="mailto:"></a><br>
+                                <span><strong>Phone: </strong></span><span class="agent_phone"></span><br>
+                                <span><strong>Fax: </strong></span><span class="agent_fax"></span><br>
+                            </address>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="map-holder">
+                <div id="vmap_usa" style="width: 600px; height: 400px;"></div>
+            </div>
+
+            {{ .Content }}
+        </div>
+    </div>
+</div>
