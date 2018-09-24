@@ -22,6 +22,19 @@ jQuery(document).ready(function () {
             ak: '#8e44ad',
             nj: '#00aabd',
             pa: '#00aabd',
+            ny: '#00aabd',
+            ct: '#00aabd',
+            ma: '#00aabd',
+            vt: '#00aabd',
+            nh: '#00aabd',
+            me: '#00aabd',
+            ri: '#00aabd',
+            de: '#AA5510',
+            md: '#AA5510',
+            nc: '#AA5510',
+            sc: '#AA5510',
+            va: '#AA5510',
+            dc: '#AA5510',
         },
         onRegionClick: function (event, code, region) {
             var agent_company = 'Rowe Technologies Inc';
@@ -30,22 +43,95 @@ jQuery(document).ready(function () {
             var agent_addr1 = '11265 Danielson Ct, Suite 306';
             var agent_addr2 = 'Poway, CA, 92064';
             var agent_addr3 = 'USA';
-            var agent_phone = "858.842.3020";
-            var agent_fax = "858.842.3021";
+            var agent_phone = "+1 858.842.3020";
+            var agent_mobile = "+1 858.361.8504";
+            var agent_fax = "+1 858.842.3021";
             var agent_website = "http://www.rowetechinc.com";
             var agent_email = "sales@rowetechinc.com";
             switch (code) {
-                case "co":
-                    agent_company = 'Brazillian Company 1';
-                    agent_title = 'Brazil - ' + agent_company;
-                    agent_name = "Bob Joe";
-                    agent_addr1 = '1124 San Diego\n CA';
-                    agent_addr2 = '1124 San Diego\n CA';
-                    agent_addr3 = '1124 San Diego\n CA';
-                    agent_phone = "858.842.3020";
-                    agent_fax = "858.842.3020";
-                    agent_website = "http://www.rowetechinc.com";
-                    agent_email = "sales@rowetechinc.com";
+                case "de":
+                case "md":
+                case "nc":
+                case "sc":
+                case "va":
+                case "dc":
+                    agent_company = 'KRK Consultants, Ltd.';
+                    agent_title = 'US Mid Atlantic - ' + agent_company;
+                    agent_name = "Mr. Ray Mahr Jr";
+                    agent_addr1 = '17476 Slipper Shell Way, Suite 6';
+                    agent_addr2 = 'Lewes, DE . 19958';
+                    agent_addr3 = '';
+                    agent_phone = "302-330-7063";
+                    agent_mobile = "858-864-7775";
+                    agent_fax = "";
+                    agent_email = "rmahrjr@gmail.com";
+                    agent_website = "www.krkconsultantsltd.com";
+                    break;
+                case "nj":
+                case "pa":
+                case "ny":
+                case "ct":
+                case "ma":
+                case "vt":
+                case "nh":
+                case "me":
+                case "ri":
+                    agent_company = 'Electronic Sales of New England';
+                    agent_title = 'US Northeast - BC Canada - ' + agent_company;
+                    agent_name = "Mr. Mark Warren";
+                    agent_addr1 = '33 Main St., Unit E';
+                    agent_addr2 = 'Old Saybrook, CT 06475 USA';
+                    agent_addr3 = '';
+                    agent_phone = "+1 860 388 1196";
+                    agent_mobile = "+1 860 884 8870";
+                    agent_fax = "+1 860 388 1232";
+                    agent_email = "sales@esalesne.com";
+                    agent_website = "www.esalesne.com";
+                    break;
+                case "wa":
+                case "or":
+                case "ak":
+                    agent_company = 'Subsea 20/20, Inc.';
+                    agent_title = 'US Northwest - BC Canada - ' + agent_company;
+                    agent_name = "Mr. Eric Munday";
+                    agent_addr1 = '2503 4th Ave.';
+                    agent_addr2 = 'N. Seattle, WA 98109 USA/BC Canada';
+                    agent_addr3 = '';
+                    agent_phone = "+1 206 963 6369";
+                    agent_mobile = "";
+                    agent_fax = "";
+                    agent_email = "eric@subsea2020.com";
+                    agent_website = "www.subsea2020.com";
+                    break;
+                case "ms":
+                case "tx":
+                case "la":
+                    agent_company = 'Richards & Associates, Inc.';
+                    agent_title = 'US Gulf Coast - ' + agent_company;
+                    agent_name = "Mr. Chuck Richards C.A.";
+                    agent_addr1 = '10801 Hammerly Blvd., Suite 202';
+                    agent_addr2 = 'Houston, TX 77043';
+                    agent_addr3 = '';
+                    agent_phone = "+1 281 531 7417";
+                    agent_mobile = "";
+                    agent_fax = "+1 281 531 7456";
+                    agent_email = "chuck@carichards.com";
+                    agent_website = "www.carichards.com";
+                    break;
+                case "al":
+                case "fl":
+                case "ga":
+                    agent_company = 'Higgs Hydrographic Tek LLC';
+                    agent_title = 'US Southeast - ' + agent_company;
+                    agent_name = "Mr. Michael Higgs";
+                    agent_addr1 = '10415 La Mirage Ct';
+                    agent_addr2 = 'Tampa Fl 33615 USA';
+                    agent_addr3 = '';
+                    agent_phone = "+1 813 230 0069";
+                    agent_mobile = "";
+                    agent_fax = "";
+                    agent_email = "Michael.higgs@higgshydrographictek.com";
+                    agent_website = "www.higgshydrographictek.com";
                     break;
                 default:
                     // Rowe Technologies is Default
@@ -55,10 +141,11 @@ jQuery(document).ready(function () {
                     agent_addr1 = '11265 Danielson Ct, Suite 306';
                     agent_addr2 = 'Poway, CA, 92064';
                     agent_addr3 = 'USA';
-                    agent_phone = "858.842.3020";
-                    agent_fax = "858.842.3021";
-                    agent_website = "http://www.rowetechinc.com";
+                    agent_phone = "+1 858.842.3020";
+                    agent_mobile = "+1 858.361.8504";
+                    agent_fax = "+1 858.842.3021";
                     agent_email = "sales@rowetechinc.com";
+                    agent_website = "http://www.rowetechinc.com";
             }
             // Display the Modal Dialog of Agent Information
             $('#agentModal').on('show.bs.modal', function (event) {
@@ -70,6 +157,7 @@ jQuery(document).ready(function () {
                 modal.find('.agent_addr2').text(agent_addr2);
                 modal.find('.agent_addr3').text(agent_addr3);
                 modal.find('.agent_phone').text(agent_phone);
+                modal.find('.agent_mobile').text(agent_mobile);
                 modal.find('.agent_fax').text(agent_fax);
                 modal.find('.agent_email').text(agent_email);
                 modal.find('.agent_email').attr("href", "mailto:" + agent_email);
