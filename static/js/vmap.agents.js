@@ -465,7 +465,7 @@ jQuery(document).ready(function () {
                     agent_email = "aoeab@bezeqint.net";
                     agent_website = "www.aoe.co.il";
                     break;
-                case "il":
+                case "za":
                     agent_company = 'SMD Telecommunications (Pty) Ltd';
                     agent_title = 'South Africa - ' + agent_company;
                     agent_name = "Niamatullah Cassiem";
