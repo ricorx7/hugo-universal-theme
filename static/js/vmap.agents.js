@@ -396,15 +396,15 @@ jQuery(document).ready(function () {
                     break;
                 case "in":
                 case "lk":
-                    agent_company = 'Deekay Marine Services PVT, LTD';
+                    agent_company = 'Ms Deekay Marine Services Pvt Ltd';
                     agent_title = 'India - ' + agent_company;
                     agent_name = "Mr. Kamal Singh";
-                    agent_addr1 = '101, Sai Pooja, JB Nagar';
-                    agent_addr2 = 'Andheri (E.), Mumbai-400 059';
+                    agent_addr1 = '202 Swaroop Centre, Behind satellite building ';
+                    agent_addr2 = 'OM Nagar , Andheri East , Mumbai -400099';
                     agent_addr3 = '';
-                    agent_phone = "+91 22 2838 7874";
+                    agent_phone = "+0091-22-28341261";
                     agent_mobile = "";
-                    agent_fax = "+91 22 2838 9659";
+                    agent_fax = "+0091-22-28389659";
                     agent_email = "sales@deekaymarine.com";
                     agent_website = "www.deekaymarine.com";
                     break;
