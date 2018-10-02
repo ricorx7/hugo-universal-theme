@@ -65,7 +65,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "858-864-7775";
                     agent_fax = "";
                     agent_email = "rmahrjr@gmail.com";
-                    agent_website = "www.krkconsultantsltd.com";
+                    agent_website = "http://www.krkconsultantsltd.com";
                     break;
                 case "nj":
                 case "pa":
@@ -86,7 +86,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+1 860 884 8870";
                     agent_fax = "+1 860 388 1232";
                     agent_email = "sales@esalesne.com";
-                    agent_website = "www.esalesne.com";
+                    agent_website = "http://www.esalesne.com";
                     break;
                 case "wa":
                 case "or":
@@ -101,7 +101,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "eric@subsea2020.com";
-                    agent_website = "www.subsea2020.com";
+                    agent_website = "http://www.subsea2020.com";
                     break;
                 case "ms":
                 case "tx":
@@ -116,7 +116,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+1 281 531 7456";
                     agent_email = "chuck@carichards.com";
-                    agent_website = "www.carichards.com";
+                    agent_website = "http://www.carichards.com";
                     break;
                 case "al":
                 case "fl":
@@ -131,7 +131,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "Michael.higgs@higgshydrographictek.com";
-                    agent_website = "www.higgshydrographictek.com";
+                    agent_website = "http://www.higgshydrographictek.com";
                     break;
                 default:
                     // Rowe Technologies is Default
@@ -163,6 +163,7 @@ jQuery(document).ready(function () {
                 modal.find('.agent_email').attr("href", "mailto:" + agent_email);
                 modal.find('.agent_website').text(agent_website);
                 modal.find('.agent_website').attr("href", agent_website);
+                modal.find('.agent_website').attr("target", "_blank");
             });
             $('#agentModal').modal('show');
         }

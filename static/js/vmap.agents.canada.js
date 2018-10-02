@@ -37,7 +37,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "eric@subsea2020.com";
-                    agent_website = "www.subsea2020.com";
+                    agent_website = "http://www.subsea2020.com";
                     break;
                 default:
                     // ROMOR is Default for Canada
@@ -51,7 +51,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "1-902-456-3406";
                     agent_fax = "";
                     agent_email = "dverge@romor.ca";
-                    agent_website = "www.romor.ca";
+                    agent_website = "http://www.romor.ca";
             }
             // Display the Modal Dialog of Agent Information
             $('#agentModal').on('show.bs.modal', function (event) {
@@ -69,6 +69,7 @@ jQuery(document).ready(function () {
                 modal.find('.agent_email').attr("href", "mailto:" + agent_email);
                 modal.find('.agent_website').text(agent_website);
                 modal.find('.agent_website').attr("href", agent_website);
+                modal.find('.agent_website').attr("target", "_blank");
             });
             $('#agentModal').modal('show');
         }

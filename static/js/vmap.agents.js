@@ -43,7 +43,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+49 431 535 500 99";
                     agent_email = "a.davidov@m-b-t.com";
-                    agent_website = "www.m-b-t.com";
+                    agent_website = "http://www.m-b-t.com";
                     break;
                 case "tr":
                     agent_company = 'Elite Elektrik Üretim Ve';
@@ -56,7 +56,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "(312) 472 83 93";
                     agent_fax = "(312) 472 20 67";
                     agent_email = "elite@elite.com.tr";
-                    agent_website = "www.elite.com.tr";
+                    agent_website = "http://www.elite.com.tr";
                     break;
                 case "it":
                     agent_company = 'Codevintec';
@@ -69,7 +69,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+39 02 4830 2169";
                     agent_email = "andrea.faccioli@codevintec.it";
-                    agent_website = "www.codevintec.it";
+                    agent_website = "http://www.codevintec.it";
                     break;
                 case "es":
                     agent_company = 'Casco Antiguo Spain';
@@ -82,7 +82,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+34 618 465 771";
                     agent_fax = "";
                     agent_email = "wenceslao@cascoantiguo.com";
-                    agent_website = "www.cascoantiguopro.com";
+                    agent_website = "http://www.cascoantiguopro.com";
                     break;
                 case "pt":
                     agent_company = 'Casco Antiguo Portugal';
@@ -108,7 +108,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+33 (0)2 97 89 88 72";
                     agent_email = "didier.clech@neotek-web.com";
-                    agent_website = "www.neotek-web.com";
+                    agent_website = "http://www.neotek-web.com";
                     break;
                 case "gb":
                     agent_company = 'RS Aqua Ltd';
@@ -121,7 +121,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+44 (0)1730 828128";
                     agent_email = "S.Forbes@rsaqua.co.uk";
-                    agent_website = "www.rsaqua.co.uk";
+                    agent_website = "http://www.rsaqua.co.uk";
                     break;
                 case "nl":
                 case "be":
@@ -136,7 +136,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+31-345-570649";
                     agent_email = "Michael.malik@stema-systems.nl";
-                    agent_website = "www.stema-systems.nl";
+                    agent_website = "http://www.stema-systems.nl";
                     break;
                 case "gr":
                     agent_company = 'Tree Company Corporation SA';
@@ -149,7 +149,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+ 30 2109473617";
                     agent_fax = "972-3-9440845";
                     agent_email = "thess@treecomp.gr";
-                    agent_website = "www.treecomp.gr";
+                    agent_website = "http://www.treecomp.gr";
                     break;
                 case "ro":
                     agent_company = 'TehnoINSTRUMENT IMPEX SRL';
@@ -175,7 +175,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "ph@herskindconsult.com";
-                    agent_website = "www.herskindconsult.com";
+                    agent_website = "http://www.herskindconsult.com";
                     break;
                 case "cn":
                     agent_company = 'Pan-Comm';
@@ -201,7 +201,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+81 47 350 1259";
                     agent_email = "teruki@seanet.co.jp";
-                    agent_website = "www.seanet.co.jp";
+                    agent_website = "http://www.seanet.co.jp";
                     break;
                 case "kr":
                     agent_company = 'Tae Kwang Electronics Corporation';
@@ -214,7 +214,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+82 (0)10 8960 2703";
                     agent_fax = "+82 (0)2 479 2705";
                     agent_email = "taekwang@nuri.net";
-                    agent_website = "tkec.co.kr";
+                    agent_website = "http://tkec.co.kr";
                     break;
                 case "tw":
                     agent_company = 'Sino Instruments Co., Ltd';
@@ -227,7 +227,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "sinoalan@ms1.hinet.net";
-                    agent_website = "www.sinolan.com.tw";
+                    agent_website = "http://www.sinolan.com.tw";
                     break;
                 case "au":
                     agent_company = 'Western Advance Group';
@@ -240,7 +240,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+61 89240 4622";
                     agent_fax = "";
                     agent_email = "c.brooks@westernadvance.com";
-                    agent_website = "www.westernadvance.com";
+                    agent_website = "http://www.westernadvance.com";
                     break;
                 case "id":
                     agent_company = 'PT. Geotindo Mitra Kencana';
@@ -266,7 +266,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "chunganh@phanleco.com";
-                    agent_website = "www.phanleco.com";
+                    agent_website = "http://www.phanleco.com";
                     break;
                 case "my":
                 case "sg":
@@ -281,7 +281,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+603-9019 5301";
                     agent_email = "yjlee@reefmapper.com";
-                    agent_website = "www.renstarinst.com";
+                    agent_website = "http://www.renstarinst.com";
                     break;
                 case "th":
                     agent_company = 'Multiproof Company Limited';
@@ -294,7 +294,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "thirawat.p@multiproof.com";
-                    agent_website = "www.multiproof.com";
+                    agent_website = "http://www.multiproof.com";
                     break;
                 case "mx":
                     agent_company = 'Liderti Inc.';
@@ -307,7 +307,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "ccardenas@lidertiinc.com";
-                    agent_website = "www.lidertiinc.com";
+                    agent_website = "http://www.lidertiinc.com";
                     break;
                 case "pa":
                     agent_company = 'Casco Antiguo Panama';
@@ -320,7 +320,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "infopanama@cascoantiguo.com";
-                    agent_website = "www.cascoantiguopro.com";
+                    agent_website = "http://www.cascoantiguopro.com";
                     break;
                 case "co":
                     agent_company = 'Casco Antiguo Colombia';
@@ -333,7 +333,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "z.garcia@cascoantiguo.com";
-                    agent_website = "www.cascoantiguopro.com";
+                    agent_website = "http://www.cascoantiguopro.com";
                     break;
                 case "br":
                     agent_company = 'Ambidados Consultoria em Meio Ambiente Ltda.';
@@ -346,7 +346,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+55 21 3733-1769";
                     agent_email = "rowerep@ambidados.com";
-                    agent_website = "www.ambidados.com";
+                    agent_website = "http://www.ambidados.com";
                     break;
                 case "cl":
                 case "pe":
@@ -360,7 +360,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+56 9 97586470";
                     agent_fax = "";
                     agent_email = "g.rival@cascoantiguo.com";
-                    agent_website = "www.cascoantiguopro.com";
+                    agent_website = "http://www.cascoantiguopro.com";
                     break;
                 case "bo":
                 case "ec":
@@ -379,7 +379,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "marcelo@messenocean.com";
-                    agent_website = "www.messenocean.com";
+                    agent_website = "http://www.messenocean.com";
                     break;
                 case "ar":
                     agent_company = 'Duolink';
@@ -392,7 +392,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "";
                     agent_email = "diego.sayago@duolink.com.ar";
-                    agent_website = "www.duolink.com.ar";
+                    agent_website = "http://www.duolink.com.ar";
                     break;
                 case "in":
                 case "lk":
@@ -406,7 +406,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "";
                     agent_fax = "+0091-22-28389659";
                     agent_email = "sales@deekaymarine.com";
-                    agent_website = "www.deekaymarine.com";
+                    agent_website = "http://www.deekaymarine.com";
                     break;
                 case "bd":
                     agent_company = 'M/S Asha Enterprise';
@@ -450,7 +450,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+971561367766";
                     agent_fax = "+97143483650";
                     agent_email = "bipin@trideltechnologies.com";
-                    agent_website = "www.trideltechnologies.com";
+                    agent_website = "http://www.trideltechnologies.com";
                     break;
                 case "il":
                     agent_company = 'A. O. Ezra Electronics 2002 Ltd.';
@@ -463,7 +463,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+972-54-2299662/772";
                     agent_fax = "+972-3-9440845";
                     agent_email = "aoeab@bezeqint.net";
-                    agent_website = "www.aoe.co.il";
+                    agent_website = "http://www.aoe.co.il";
                     break;
                 case "za":
                     agent_company = 'SMD Telecommunications (Pty) Ltd';
@@ -476,7 +476,7 @@ jQuery(document).ready(function () {
                     agent_mobile = "+27 (0)83 652 6818";
                     agent_fax = "+27-21-511-2886";
                     agent_email = "Niamatullah.Cassiem@smd-marine.com";
-                    agent_website = "www.smd-marine.com";
+                    agent_website = "http://www.smd-marine.com";
                     break;
                 default:
                     // Rowe Technologies is Default
@@ -509,6 +509,7 @@ jQuery(document).ready(function () {
                 modal.find('.agent_email').attr("href", "mailto:" + agent_email);
                 modal.find('.agent_website').text(agent_website);
                 modal.find('.agent_website').attr("href", agent_website);
+                modal.find('.agent_website').attr("target", "_blank");
             });
             $('#agentModal').modal('show');
         }
