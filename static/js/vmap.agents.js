@@ -139,6 +139,7 @@ jQuery(document).ready(function () {
                     agent_website = "http://www.stema-systems.nl";
                     break;
                 case "gr":
+                case "cy":
                     agent_company = 'Tree Company Corporation SA';
                     agent_title = 'Greece - ' + agent_company;
                     agent_name = "Mr. Thanassis Xiromeritis";
@@ -339,11 +340,11 @@ jQuery(document).ready(function () {
                     agent_company = 'Ambidados Consultoria em Meio Ambiente Ltda.';
                     agent_title = 'Brazil - ' + agent_company;
                     agent_name = "Mr. Leonardo Kuniyoshi";
-                    agent_addr1 = 'Rua Paulo Emidio Barbosa,485';
-                    agent_addr2 = 'Quadra 06, Modulo 08, Parque Tecnologico, UFRJ, Cidade Universitaria';
-                    agent_addr3 = 'Rio de Janeiro/RJ – 21941-615';
-                    agent_phone = "+55 21 3733-1762";
-                    agent_mobile = "";
+                    agent_addr1 = 'Av. Rio Branco, 251 / sala 1501 - Centro';
+                    agent_addr2 = 'Rio de Janeiro/RJ';
+                    agent_addr3 = 'CEP: 20040-009';
+                    agent_phone = "+55 21 2524-4997";
+                    agent_mobile = "+55 11 96066-8777";
                     agent_fax = "+55 21 3733-1769";
                     agent_email = "rowerep@ambidados.com";
                     agent_website = "http://www.ambidados.com";
