@@ -33,7 +33,7 @@ jQuery(document).ready(function () {
                 case "de":
                 case "at":
                 case "ch":
-                    agent_company = 'MBT';
+                    agent_company = 'MacArtney Germany GmbH';
                     agent_title = 'Germany - ' + agent_company;
                     agent_name = "Dr. Alexander Davidov";
                     agent_addr1 = 'Wischhofstrasse 1-3';

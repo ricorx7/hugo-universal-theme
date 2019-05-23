@@ -62,7 +62,7 @@ jQuery(document).ready(function () {
                     agent_addr2 = 'Lewes, DE . 19958';
                     agent_addr3 = '';
                     agent_phone = "302-330-7063";
-                    agent_mobile = "858-864-7775";
+                    agent_mobile = "302-569-0019";
                     agent_fax = "";
                     agent_email = "rmahrjr@gmail.com";
                     agent_website = "http://www.krkconsultantsltd.com";
