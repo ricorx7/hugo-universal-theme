@@ -443,14 +443,14 @@ jQuery(document).ready(function () {
                 case "bh":
                     agent_company = 'Tridel Maritime Services LLC';
                     agent_title = 'UAE - ' + agent_company;
-                    agent_name = "Bipin Kumar Srivastava";
+                    agent_name = "";
                     agent_addr1 = 'Office # 405C, Al Montazah Tower,';
                     agent_addr2 = 'AAl Khaldiya,Zayed the First Street,';
                     agent_addr3 = 'Abu Dhabi, United Arab Emirates';
                     agent_phone = "+971 2449 9794";
                     agent_mobile = "+971561367766";
                     agent_fax = "+97143483650";
-                    agent_email = "bipin@trideltechnologies.com";
+                    agent_email = "mail@trideltechnologies.com";
                     agent_website = "http://www.trideltechnologies.com";
                     break;
                 case "il":
