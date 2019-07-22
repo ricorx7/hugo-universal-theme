@@ -181,14 +181,14 @@ jQuery(document).ready(function () {
                 case "cn":
                     agent_company = 'Pan-Comm';
                     agent_title = 'China - ' + agent_company;
-                    agent_name = "Mr. Johnny Man";
+                    agent_name = "Misky Han";
                     agent_addr1 = 'Suite 701, Building 11';
                     agent_addr2 = '518 Xinshuan Highway';
                     agent_addr3 = 'Songjinag District, Shanghai 201612, China';
                     agent_phone = "+86-21-34060911";
                     agent_mobile = "+86 13788979565";
                     agent_fax = "";
-                    agent_email = "jkfman@pan-comm.com";
+                    agent_email = "misky@pan-comm.com";
                     agent_website = "http://www.pan-comm.com";
                     break;
                 case "jp":
@@ -231,14 +231,14 @@ jQuery(document).ready(function () {
                     agent_website = "http://www.sinolan.com.tw";
                     break;
                 case "au":
-                    agent_company = 'Western Advance Group';
-                    agent_title = 'Austrailia - ' + agent_company;
+                    agent_company = 'Western Australia (Head Office)';
+                    agent_title = 'Australia - ' + agent_company;
                     agent_name = "Mr. Cory  Brooks";
-                    agent_addr1 = 'Unit 10, 199 Balcatta Rd Balcatta,';
-                    agent_addr2 = 'Perth 6021 Australia';
+                    agent_addr1 = '130 Mulgul Rd,';
+                    agent_addr2 = 'Malaga WA 6090 Australia';
                     agent_addr3 = '';
-                    agent_phone = "+ 61 (0) 418 205 212";
-                    agent_mobile = "+61 89240 4622";
+                    agent_phone = "+61 (0) 8 9240 4622";
+                    agent_mobile = "+61 (0) 8 9240 4622";
                     agent_fax = "";
                     agent_email = "c.brooks@westernadvance.com";
                     agent_website = "http://www.westernadvance.com";
