@@ -330,8 +330,8 @@ jQuery(document).ready(function () {
                     agent_addr1 = 'C/ 42B Nº 12a - 61';
                     agent_addr2 = 'Bogotá - Colombia';
                     agent_addr3 = '';
-                    agent_phone = "(+507) 398 8039";
-                    agent_mobile = "";
+                    agent_phone = "(+57) 56794553";
+                    agent_mobile = "(+57) 3107231330";
                     agent_fax = "";
                     agent_email = "z.garcia@cascoantiguo.com";
                     agent_website = "http://www.cascoantiguopro.com";
