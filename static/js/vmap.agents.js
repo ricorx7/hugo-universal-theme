@@ -186,7 +186,7 @@ jQuery(document).ready(function () {
                     agent_addr2 = '518 Xinshuan Highway';
                     agent_addr3 = 'Songjinag District, Shanghai 201612, China';
                     agent_phone = "+86-21-34060911";
-                    agent_mobile = "+86 13788979565";
+                    agent_mobile = "+15821264073";
                     agent_fax = "";
                     agent_email = "misky@pan-comm.com";
                     agent_website = "http://www.pan-comm.com";
