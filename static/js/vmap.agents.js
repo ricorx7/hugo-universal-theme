@@ -214,7 +214,7 @@ jQuery(document).ready(function () {
                     agent_phone = "+82 (0)2 479 2703";
                     agent_mobile = "+82 (0)10 8960 2703";
                     agent_fax = "+82 (0)2 479 2705";
-                    agent_email = "taekwang@nuri.net";
+                    agent_email = "taekwang@tkec.co.kr";
                     agent_website = "http://tkec.co.kr";
                     break;
                 case "tw":
