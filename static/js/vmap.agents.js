@@ -100,14 +100,14 @@ jQuery(document).ready(function () {
                 case "fr":
                     agent_company = 'NEOTEK Groupe';
                     agent_title = 'France - ' + agent_company;
-                    agent_name = "Mr. Didier Clec’h";
+                    agent_name = "Mr. Cyril Giry";
                     agent_addr1 = '25 rue Michel Marion';
                     agent_addr2 = '56850 Caudan France';
                     agent_addr3 = '';
                     agent_phone = "+33 (0)2 97 89 87 20";
-                    agent_mobile = "";
+                    agent_mobile = "+33 (0)6 83 78 10 51";
                     agent_fax = "+33 (0)2 97 89 88 72";
-                    agent_email = "didier.clech@neotek-web.com";
+                    agent_email = "cyril.giry@neotek-web.com";
                     agent_website = "http://www.neotek-web.com";
                     break;
                 case "gb":
